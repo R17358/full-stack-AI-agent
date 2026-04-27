@@ -6,6 +6,8 @@ from services.rag_service import rag_service
 from routers import chat, documents
 from routers import config as config_router
 
+# this is start
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
